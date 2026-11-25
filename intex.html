@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - GST Bill</title>
+  <style>
+    :root {
+      --primary: #0F766E;
+      --primary-soft: #ECFDF5;
+      --text: #1E293B;
+      --muted: #475569;
+      --border: #CBD5E1;
+      --bg: #F8FAFC;
+      --card: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    header {
+      background: var(--primary);
+      color: #FFFFFF;
+      padding: 36px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 8px;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 0;
+      opacity: 0.92;
+      font-size: 0.98rem;
+    }
+    main {
+      max-width: 860px;
+      margin: 28px auto 48px;
+      padding: 0 16px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    }
+    h2 {
+      color: var(--primary);
+      font-size: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+    h3 {
+      font-size: 1.02rem;
+      margin: 16px 0 6px;
+      color: var(--text);
+    }
+    p, li {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 12px;
+    }
+    .highlight {
+      background: var(--primary-soft);
+      border-left: 4px solid var(--primary);
+      padding: 14px 16px;
+      border-radius: 6px;
+      color: var(--text);
+      font-size: 0.94rem;
+      margin: 12px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0;
+      font-size: 0.92rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--primary-soft);
+      color: var(--text);
+      font-weight: 600;
+    }
+    td {
+      color: var(--muted);
+    }
+    a {
+      color: var(--primary);
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.88rem;
+      padding: 12px 16px 32px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy — GST Bill</h1>
+    <p>Effective Date: November 25, 2026 &bull; Package ID: com.aistudio.gstbill.kqzmpw</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>1. Introduction</h2>
+      <p>
+        This Privacy Policy explains how <strong>GST Bill</strong> ("we", "our", or "the App") collects, uses, stores, and protects your information when you use our mobile application on Android. We are committed to protecting your privacy and handling your business billing records transparently in accordance with Google Play Developer Program policies.
+      </p>
+      <div class="highlight">
+        <strong>Developer Contact Email:</strong> <a href="mailto:Ashvanshakti@gmail.com">Ashvanshakti@gmail.com</a><br />
+        <strong>App Name:</strong> GST Bill &bull; <strong>Package Name:</strong> com.aistudio.gstbill.kqzmpw
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>2. Information We Collect &amp; Google Play Data Safety Summary</h2>
+      <p>We collect only the information strictly necessary to authenticate your account, sync your GST billing records across sessions, and generate PDF invoices and quotations.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Data Category</th>
+            <th>Specific Data Collected</th>
+            <th>Purpose</th>
+            <th>Shared with 3rd Parties?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Account Info</strong></td>
+            <td>Name, email address, and Google/Firebase User ID (UID) via Google Sign-In</td>
+            <td>Account authentication and isolating your private cloud workspace</td>
+            <td>No (processed by Google Firebase Auth)</td>
+          </tr>
+          <tr>
+            <td><strong>Business &amp; Financial Records (User-Entered)</strong></td>
+            <td>Firm details (business name, GSTIN, address, phone, email, optional bank/UPI details), customer details, itemized GST invoices, quotations, and product/HSN catalog items</td>
+            <td>App functionality, multi-firm GST calculation, PDF generation, and cloud backup</td>
+            <td>No (only exported/shared when you tap Share or Save PDF)</td>
+          </tr>
+          <tr>
+            <td><strong>App Diagnostics &amp; Security</strong></td>
+            <td>Basic authentication tokens and Firestore connection metadata</td>
+            <td>Cloud sync reliability, security rules enforcement, and fraud prevention</td>
+            <td>No</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>We do <strong>not</strong> display third-party advertisements, we do <strong>not</strong> sell or rent your data to anyone, and we do <strong>not</strong> access your contacts, camera, microphone, precise location, or device photo gallery in the background.</p>
+    </section>
+
+    <section class="card">
+      <h2>3. How Your Data Is Stored and Protected</h2>
+      <ul>
+        <li><strong>Cloud Storage (Google Firebase):</strong> All business firms, bills, quotations, and catalog items are stored securely in <strong>Google Cloud Firestore</strong> under your unique authenticated user account (<code>users/{userId}/...</code>).</li>
+        <li><strong>Encryption:</strong> Data is encrypted in transit using HTTPS/TLS and encrypted at rest on Google Cloud servers.</li>
+        <li><strong>Strict Access Control:</strong> Firestore Security Rules enforce owner-only access, ensuring only the signed-in Google account owner can read, create, edit, or delete their billing data.</li>
+        <li><strong>Local PDF Caching:</strong> Generated A4 PDF invoices and quotations are temporarily rendered in the app's private cache directory solely so you can preview, print, save via Android's document picker, or share them via your chosen app.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Permissions Used by the App</h2>
+      <ul>
+        <li><strong>INTERNET:</strong> Used exclusively for Google Sign-In authentication and real-time synchronization with Cloud Firestore.</li>
+        <li><strong>Zero Broad Storage Permissions:</strong> The app does not request <code>READ_EXTERNAL_STORAGE</code>, <code>WRITE_EXTERNAL_STORAGE</code>, or <code>READ_MEDIA_*</code> permissions. Saving PDFs uses Android's zero-permission Storage Access Framework (SAF), and sharing PDFs uses a scoped <code>FileProvider</code>.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Third-Party Services</h2>
+      <p>GST Bill uses the following trusted Google services for core functionality:</p>
+      <ul>
+        <li><strong>Google Sign-In / Credential Manager &amp; Firebase Authentication</strong> — for secure sign-in.</li>
+        <li><strong>Google Cloud Firestore</strong> — for secure, real-time cloud storage of your billing ledger.</li>
+      </ul>
+      <p>
+        For details on how Google handles infrastructure and authentication data, please review the
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a> and
+        <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase Privacy &amp; Security documentation</a>.
+      </p>
+    </section>
+
+    <section class="card" id="account-deletion">
+      <h2>6. Data Retention &amp; Account Deletion</h2>
+      <p>Your business records remain stored in your cloud account only as long as you keep your account active. You have full control over your data:</p>
+      <ul>
+        <li><strong>Delete Individual Records:</strong> You can delete any firm, bill, quotation, or catalog item directly inside the app at any time.</li>
+        <li><strong>Delete Entire Account &amp; All Cloud Data (In-App):</strong> Open <strong>GST Bill</strong> &rarr; go to the <strong>Firms</strong> tab &rarr; scroll to <strong>Cloud Storage &amp; Legal</strong> &rarr; tap <strong>Delete Account &amp; Cloud Data</strong> and confirm. This permanently deletes your firms, invoices, quotations, catalog items, and profile records from Cloud Firestore and removes your app account.</li>
+        <li><strong>Delete Account via Email Request:</strong> If you cannot access the app, email <a href="mailto:Ashvanshakti@gmail.com">Ashvanshakti@gmail.com</a> from your registered Google email address with the subject <em>"Delete GST Bill Account"</em>. All associated cloud records will be permanently deleted within 7 business days.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>7. Children's Privacy</h2>
+      <p>
+        GST Bill is a business and tax invoicing application intended for adults and commercial entities. We do not knowingly collect personal information from children under 13 years of age (or the applicable age of digital consent in your jurisdiction). If you believe a child has provided personal information, please contact us so we can delete it promptly.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Changes to This Privacy Policy &amp; Contact</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect app updates or legal requirements. Any updates will be posted on this page with a revised Effective Date.
+      </p>
+      <p>
+        If you have any questions about this Privacy Policy or your data, contact us at:<br />
+        <strong>Email:</strong> <a href="mailto:Ashvanshakti@gmail.com">Ashvanshakti@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 GST Bill. All rights reserved.
+  </footer>
+</body>
+</html>
